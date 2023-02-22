@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 700px;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -35,4 +37,130 @@
   to {
     transform: rotate(360deg);
   }
+}
+.wrapp-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.textUsers{
+  display: flex;
+  flex-direction: row;
+}
+.textUsers h3{
+  font-size: 35px;
+}
+.textUsers p{
+  padding-left: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  display: inline-flex;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 10px;
+  height: 30px;
+}
+
+.search-icon {
+  background: url(./view_zoom_find_search_look_magnifier_see_icon_232682.svg) no-repeat;
+  background-size: contain;
+  width: 40px;
+  height: 100%;
+  margin-right: 10px;
+  order: -1;
+}
+
+.search-field {
+  width: 300px;
+  border: 0; 
+}
+
+.search-field:focus {
+  outline: none;
+}
+
+/* .search-field:focus + .search-icon {
+  /* стили для иконки при фокусе поля */ 
+.rowHeadList{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #ababad;
+  border-radius: 20px;
+}
+.rowHeadList div{
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+.right{
+  grid-gap:0 20px;
+}
+.right div{
+  background: url(./document_filter_icon_243155.png) no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+.left{
+  grid-gap: 0 35px;
+  padding-right: 90px;
+}
+ul{
+  padding: 0;
+  height: 50vh;
+  overflow-y: scroll;
+  list-style-position: inside;
+}
+li{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: #ababad solid 1px;
+  border-radius: 20px;
+  padding:0 10px;
+  margin-bottom: 10px;
+}
+li div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  grid-gap: 15px;
+}
+li span{
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+}
+.checkboxs{
+  grid-gap: 0 60px;
+}
+.dots{
+  background: url(./three_dots_icon_159804.png) no-repeat;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+}
+button{
+  display: flex;
+  align-self: flex-start;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 130px;
+  background-color: #282c34;
+  color:aliceblue;
+  border-radius: 20px;
+  font-size: 20px;
 }
